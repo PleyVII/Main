@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5085b33c2c2e7da499365267fdae3488, type: 3}
+  m_Name: BowlingBashSkill
+  m_EditorClassIdentifier: 
+  skillName: BowlingBashSkill
+  levelMax: 20
+  levelLearned: 1
+  levelCurrent: 1
+  icon: {fileID: 21300000, guid: f07204d6b154fb244a843d9e9cc28646, type: 3}
+  skillRequirements: []
+  isTargeted: 0
+  castedAtGround: 0
+  range: 15
+  manaBaseCost: 4
+  manaMultiplierPerLevel: 1.2
+  castTime: 0
+  chargeTime: 0
+  attackerInformation: {fileID: 0}
+  targetInfo: {fileID: 0}
+  isMagicDamage: 0
+  isPhysicalDamage: 0
+  IsMelee: 1
+  IsRanged: 0
+  physicalDamage: 1.2
+  magicDamage: 0
+  damageMultiplierPerLevel: 1.06
+  skillElementIfNotUsingWeaponElement: 0
+  numberOfHits: 2
+  areaOfEffectRadius: 5
+  stunChance: 0
+  stunDuration: 0

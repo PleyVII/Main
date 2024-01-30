@@ -1,0 +1,4 @@
+repository "My projectRPG@PleyVI@cloud"
+  path "/"
+    br "/main"
+    co "/main"

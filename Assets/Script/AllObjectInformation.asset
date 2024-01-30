@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f58ebd7db2d062478d628eb88964d4a, type: 3}
+  m_Name: AllObjectInformation
+  m_EditorClassIdentifier: 
+  baseExpToLvlUp: 0
+  baseExpCurrent: 0
+  jobExpToLvlUp: 0
+  jobExpCurrent: 0
+  currentHealth: 0
+  currentMana: 0
+  Stats:
+    attackCooldown: 1
+    abilityCooldown: 1
+    AtkPerPointOfStrength: 2
+    AtkPer10PointsOfStrength: 1
+    AspdPerPointOfAgility: 1
+    FleePerPointOfAgility: 4
+    MatkPerPointOfInt: 2
+    MatkPer10PointsOfInt: 1
+    HitPerPointOfDex: 4
+    CastTimePerPointOfDex: 1
+    CritChancePerPointOfCrit: 1
+    SoftMDefPerPointOfInt: 3
+    SoftDefPerPointOfVit: 3
+    MaxManaBaseMultiplier: 1
+    HealthRegenMaxHealthScaling: 1
+    HealthRegenPerPointOfVit: 4
+    ManaRegenMaxManaScaling: 1
+    ManaRegenPerPointOfInt: 1
+    characterClass: 0
+  DefaultBodyElement: 0
+  OwnerSize: 1
+  OwnerRace: 2
+  OwnerRank: 0
+  CurrentStatus: 0
+  CurrentState: 0
+  currentEquipment:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weaponNumberOfHits: 1
+  focusedObject: {fileID: 0}
+  agent: {fileID: 0}
+  transform: {fileID: 0}
+  target: {fileID: 0}
